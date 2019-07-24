@@ -267,7 +267,7 @@ h2 {
   color: black;
   font-weight: 100;
   font-display: swap;
-  font-size: 60px;
+  font-size: 80px;
 	text-decoration: underline;
 	font-family: 'Oswald'
 }
@@ -323,4 +323,97 @@ animate
 	transform: translate(0px,5px);
   -webkit-transform: translate(0px,5px);
 	border-bottom: 1px solid;
+}
+
+#rainforest{
+	position: absolute;
+  top: 375px;
+  left: 75px;
+  width: 400px;
+}
+#tropical{
+	position: absolute;
+  top: 325px;
+  left: 500px;
+	font-size: 40px;
+	color: black;
+	font-family: 'Cabin';
+}
+#trop{
+  position: absolute;
+  top: 420px;
+  left: 600px;
+	font-size: 18px;
+	font-family:'Cabin'
+
+}
+
+#deciduous{
+	position: absolute;
+  top: 700px;
+  right: 125px;
+  width: 400px;
+}
+#decid{
+	position: absolute;
+  top: 725px;
+  left: 500px;
+	font-size: 40px;
+	color: black;
+	font-family: 'Cabin';
+}
+#de{
+  position: absolute;
+  top: 825px;
+  left: 350px;
+	font-size: 18px;
+	font-family:'Cabin'
+
+}
+
+#coniferous{
+	position: absolute;
+  top: 1100px;
+  left: 75px;
+  width: 400px;
+}
+#conif{
+	position: absolute;
+  top: 1105px;
+  left: 500px;
+	font-size: 40px;
+	color: black;
+	font-family: 'Cabin';
+}
+#co{
+  position: absolute;
+  top: 1200px;
+  left: 500px;
+	font-size: 18px;
+	font-family:'Cabin'
+
+}
+
+
+#tunr{
+	position: absolute;
+  top: 850px;
+  right: 125px;
+  width: 400px;
+}
+#tund{
+	position: absolute;
+  top: 800px;
+  left: 600px;
+	font-size: 40px;
+	color: black;
+	font-family: 'Cabin';
+}
+#tu{
+  position: absolute;
+  top: 900px;
+  left: 350px;
+	font-size: 18px;
+	font-family:'Cabin'
+
 }
