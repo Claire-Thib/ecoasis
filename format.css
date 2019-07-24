@@ -306,3 +306,80 @@ h2 {
 
 
 }
+
+#us{
+	position: relative;
+}
+
+#Solar{
+	width:300px;
+  height: 300px;
+
+}
+
+#Wind{
+	width:300px;
+  height: 300px;
+
+}
+
+#Hydro{
+	width:300px;
+  height: 300px;
+
+}
+
+#Geo{
+	width:300px;
+  height: 300px;
+
+}
+
+#Bio{
+	width:300px;
+  height: 300px;
+}
+
+#nuclear{
+	width:300px;
+  height: 300px;
+}
+
+#oil{
+	width:300px;
+  height: 300px;
+}
+
+#gas{
+	width:300px;
+  height: 300px;
+}
+#coal{
+	width:300px;
+  height: 300px;
+}
+
+#renewable{
+	width:600px;
+  height: 450px;
+}
+
+#nonrenewable{
+	width:600px;
+  height: 450px;
+}
+
+#Tidal{
+	width:300px;
+	height: 300px;
+}
+
+#turbinel{
+	width:600px;
+  height: 450px;
+}
+
+#watert{
+	width:600px;
+  height: 450px;
+}

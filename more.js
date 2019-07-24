@@ -91,3 +91,16 @@ function but6(){
   document.getElementById('six').style.display='none'
   document.getElementById('twelve').style.display='block'
 }
+
+function hide(){
+
+document.getElementById('image').style='display:none';
+document.getElementById('image2').style='display:block';
+
+}
+
+function show(){
+
+document.getElementById('image').style='display:block';
+document.getElementById('image2').style='display:none';
+}
