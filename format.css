@@ -4,7 +4,7 @@ body {
 	background: #FFF;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 800;
-  padding-bottom: 1000px;
+  padding-bottom: 600px;
 
 }
 
@@ -385,12 +385,12 @@ animate
 	color: black;
 	font-family: 'Cabin';
 }
-#co{
+#con{
   position: absolute;
-  top: 1200px;
+	top: 1200px;
   left: 500px;
 	font-size: 18px;
-	font-family:'Cabin'
+	font-family:'Cabin';
 
 }
 
@@ -416,4 +416,116 @@ animate
 	font-size: 18px;
 	font-family:'Cabin'
 
+}
+
+
+
+#hotdesert{
+	/* position: absolute; */
+  /* top: 850px;
+  right: 125px; */
+  width: 300px;
+	height: 300px;
+}
+#hotdes{
+	position: absolute;
+  top: 670px;
+  left: 133px;
+	font-size: 30px;
+	color: black;
+	font-family: 'Cabin';
+	font-weight: bolder;
+}
+#hot{
+  position: absolute;
+  top: 740px;
+  left: 133px;
+	font-size: 18px;
+	font-family:'Cabin'
+
+}
+
+#semiariddesert{
+	/* position: absolute; */
+  /* top: 850px;
+  right: 125px; */
+	width: 300px;
+	height: 300px;
+}
+#semiarid{
+	position: absolute;
+  top: 670px;
+  left: 463px;
+	font-size: 30px;
+	color: black;
+	font-family: 'Cabin';
+	font-weight: bolder;
+}
+#semi{
+  position: absolute;
+  top: 740px;
+  left: 453px;
+	font-size: 18px;
+	font-family:'Cabin'
+
+}
+
+#coastaldesert{
+	/* position: absolute; */
+  /* top: 850px;
+  right: 125px; */
+	width: 300px;
+	height: 300px;
+}
+#coastal{
+	position: absolute;
+  top: 670px;
+  left: 780px;
+	font-size: 30px;
+	color: black;
+	font-family: 'Cabin';
+	font-weight: bolder;
+}
+#coast{
+  position: absolute;
+  top: 740px;
+  left: 760px;
+	font-size: 18px;
+	font-family:'Cabin';
+
+}
+
+#colddesert{
+	/* position: absolute; */
+  /* top: 850px;
+  right: 125px; */
+	width: 300px;
+	height: 300px;
+}
+#cold{
+	position: absolute;
+  top: 670px;
+  right: 172px;
+	font-size: 30px;
+	color: black;
+	font-family: 'Cabin';
+	font-weight: bolder;
+}
+#co{
+  position: absolute;
+  top: 740px;
+  right: 120px;
+	font-size: 18px;
+	font-family:'Cabin';
+
+}
+
+#chapping{
+	margin-left: 200px;
+}
+
+#chaps{
+	position: absolute;
+	top: 400px;
+	right: 220px;
 }
