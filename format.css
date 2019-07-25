@@ -286,10 +286,150 @@ h2 {
 
 #intro{
   position: relative;
-
   width: 100%;
   height: 100%;
+}
 
+#us{
+	position: relative;
+}
+
+#Solar{
+	width:300px;
+  height: 300px;
+
+}
+
+#Wind{
+	width:300px;
+  height: 300px;
+
+}
+
+#Hydro{
+	width:300px;
+  height: 300px;
+
+}
+
+#Geo{
+	width:300px;
+  height: 300px;
+
+}
+
+#Bio{
+	width:300px;
+  height: 300px;
+}
+
+#nuclear{
+	width:300px;
+  height: 300px;
+}
+
+#oil{
+	width:300px;
+  height: 300px;
+}
+
+#gas{
+	width:300px;
+  height: 300px;
+}
+#coal{
+	width:300px;
+  height: 300px;
+}
+
+#renewable{
+	width:600px;
+  height: 450px;
+}
+
+#nonrenewable{
+	width:600px;
+  height: 450px;
+}
+
+#Tidal{
+	width:300px;
+	height: 300px;
+}
+
+#turbinel{
+
+	width:420px;
+  height: 315px;
+	border: 5px solid #000;
+
+}
+
+#watert{
+
+	width:420px;
+  height: 315px;
+	border: 5px solid #000;
+}
+
+#vid{
+
+	border: 5px solid #000;
+}
+
+#text{
+
+<<<<<<< HEAD
+	font-size: 100px;
+}
+
+#solar{
+	width:420px;
+  height: 315px;
+	border: 5px solid #000;
+}
+#tidalvid{
+	position: relative;
+  top: 100px;
+  left: 155px;
+  width: 420px;
+  height:315px;
+  border: 5px solid #000;
+}
+
+#textt{
+	position: relative;
+	top: -250px;
+	left: 700px;
+	width: 420px;
+	height:315px;
+}
+
+#tidalgif{
+	position:absolute;
+	top: 700px;
+	left:150;
+	width:420px;
+  height: 315px;
+	border: 5px solid #000;
+}
+
+#wavegif{
+	position:absolute;
+	top: 700px;
+	left: 250px;
+	width:420px;
+  height: 315px;
+	border: 5px solid #000;
+}
+
+#title{
+	position:absolute;
+	top: 1050px;
+	left: 385px;
+
+}
+=======
 }
 
 animate
@@ -415,5 +555,10 @@ animate
   left: 350px;
 	font-size: 18px;
 	font-family:'Cabin'
+>>>>>>> master
 
+#title2{
+	position:absolute;
+	top: 1050px;
+	left: 890px;
 }
