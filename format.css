@@ -274,14 +274,21 @@ h2 {
 
 .image2{
   position: relative;
-  top: 100px;
+  /* top: 100px; */
+	top: 10px;
   left: 50px;
+  left: 10px;
   width: 580px;
   height:350px;
   border: 5px solid #000;
 }
 #image{
   display:none;
+	top: 10px;
+  left: 50px;
+  width: 580px;
+  height:350px;
+  border: 5px solid #000;
 }
 
 #intro{
@@ -292,6 +299,11 @@ h2 {
 
 #us{
 	position: relative;
+	top: 10px;
+	left: 50px;
+	width: 580px;
+	height:350px;
+	border: 5px solid #000;
 }
 
 #Solar{
@@ -429,10 +441,8 @@ h2 {
 	left: 385px;
 
 }
-=======
-}
 
-animate
+.animate
 {
 	transition: all 0.1s;
 	-webkit-transition: all 0.1s;
@@ -555,7 +565,7 @@ animate
   left: 350px;
 	font-size: 18px;
 	font-family:'Cabin'
->>>>>>> master
+}
 
 #title2{
 	position:absolute;
@@ -673,4 +683,88 @@ animate
 	position: absolute;
 	top: 400px;
 	right: 220px;
+}
+
+#textttt{
+	/* font-family: 'Cabin'; */
+position: relative;
+left:1400px
+size:10pt;
+
+}
+/* s */
+
+.column {
+  float: left;
+	padding: 10px;
+  /* width: 50%; */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.left{
+	width: 10%;
+}
+
+.right{
+	width: 80%;
+}
+
+#pic{
+	position: relative;
+	top: -150px;
+	left:-5px;
+  width: 480px;
+  height:350px;
+  border: 5px solid #000;
+}
+
+#long{
+	position: relative;
+	width: 350px;
+	height:500px;
+	border: 5px solid #000;
+}
+
+#about{
+	position:absolute;
+	top:725px;
+	left: 290px;
+	width: 480px;
+	width: 480px;
+  height:350px;
+}
+
+#lakes{
+	position: absolute;
+  top: 670px;
+  left: 220px;
+	font-size: 30px;
+	color: black;
+	font-family: 'Cabin';
+	font-weight: bolder;
+}
+
+#ponds{
+	position: absolute;
+  top: 670px;
+  left: 530px;
+	font-size: 30px;
+	color: black;
+	font-family: 'Cabin';
+	font-weight: bolder;
+}
+
+#river{
+	position: absolute;
+	top: 670px;
+	left: 1150px;
+	font-size: 30px;
+	color: black;
+	font-family: 'Cabin';
+	font-weight: bolder;
 }
