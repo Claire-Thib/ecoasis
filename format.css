@@ -173,46 +173,136 @@ h3 {
 
 #none{
   position: relative;
-  top: -500px;
-  left: 800px;
-  width: 190px;
-  border: 3px solid #000;
+  top: -700px;
+  left: 600px;
+	width: 700px;
+	font-family: 'Oswald';
+	font-size: 35px;
+
 }
 #one{
   position: relative;
-  top: -500px;
-  left: 800px;
-  width: 190px;
-  border: 3px solid #000;
+	top: -700px;
+  left: 575px;
+	width: 800px;
+	font-family: 'Oswald';
+	font-size: 35px;
 }
 
 #two{
   position: relative;
-  top: -500px;
-  left: 800px;
-  width: 190px;
-  border: 3px solid #000;
+	top: -700px;
+  left: 575px;
+	width: 800px;
+	font-family: 'Oswald';
+	font-size: 35px;
 }
 #four{
   position: relative;
-  top: -500px;
-  left: 800px;
-  width: 190px;
-  border: 3px solid #000;
+	top: -700px;
+  left: 575px;
+	width: 800px;
+	font-family: 'Oswald';
+	font-size: 35px;
 }
 #six{
   position: relative;
-  top: -500px;
-  left: 800px;
-  width: 190px;
-  border: 3px solid #000;
+	top: -700px;
+  left: 575px;
+	width: 800px;
+	font-family: 'Oswald';
+	font-size: 35px;
 }
 #twelve{
   position: relative;
-  top: -500px;
-  left: 800px;
-  width: 190px;
-  border: 3px solid #000;
+	top: -700px;
+  left: 575px;
+	width: 800px;
+	font-family: 'Oswald';
+	font-size: 35px;
+}
+
+#black1{
+	position: relative;
+	top: -700px;
+	left: 670px;
+	width: 800px;
+	font-family: 'Oswald';
+	font-size: 28px;
+}
+
+#black2{
+	position: relative;
+	top: -700px;
+	left: 600px;
+	width: 800px;
+	font-family: 'Oswald';
+	font-size: 28px;
+}
+
+#black3{
+	position: relative;
+	top: -700px;
+	left: 600px;
+	width: 800px;
+	font-family: 'Oswald';
+	font-size: 28px;
+}
+
+#glacier{
+	position: absolute;
+	top: 850px;
+	left: 700px;
+	height: 210px;
+	width: 500px;
+	border: 3px solid #000;
+}
+
+#black4{
+	position: relative;
+	top: -700px;
+	left: 600px;
+	width: 800px;
+	font-family: 'Oswald';
+	font-size: 28px;
+}
+
+#sealevel{
+	position: absolute;
+	top: 820px;
+	left: 700px;
+	height: 240px;
+	width: 500px;
+	border: 3px solid #000;
+}
+
+#coral{
+	position: absolute;
+	top: 900px;
+	left: 700px;
+	height: 150px;
+	width: 500px;
+	border: 3px solid #000;
+}
+
+
+#simonhappy{
+	position: absolute;
+	top: 775px;
+	left: 640px;
+	height: 200px;
+	width: 300px;
+	border: 3px solid #000;
+}
+
+#hbeach{
+	position: absolute;
+	top: 775px;
+	right: 150px;
+	height: 200px;
+	width: 300px;
+	border: 3px solid #000;
+
 }
 
 #forest{
@@ -391,7 +481,6 @@ h2 {
 
 #text{
 
-<<<<<<< HEAD
 	font-size: 100px;
 }
 
@@ -411,7 +500,7 @@ h2 {
 
 #textt{
 	position: relative;
-	top: -250px;
+	top: -240px;
 	left: 700px;
 	width: 420px;
 	height:315px;
@@ -419,7 +508,7 @@ h2 {
 
 #tidalgif{
 	position:absolute;
-	top: 700px;
+	top: 900px;
 	left:150;
 	width:420px;
   height: 315px;
@@ -428,7 +517,7 @@ h2 {
 
 #wavegif{
 	position:absolute;
-	top: 700px;
+	top: 900px;
 	left: 250px;
 	width:420px;
   height: 315px;
@@ -437,10 +526,11 @@ h2 {
 
 #title{
 	position:absolute;
-	top: 1050px;
+	top: 1225px;
 	left: 385px;
 
 }
+<<<<<<< HEAD
 
 .animate
 {
@@ -574,11 +664,10 @@ h2 {
 }
 
 
-
 #hotdesert{
-	/* position: absolute; */
-  /* top: 850px;
-  right: 125px; */
+ /* position: absolute;
+ 	top: 337px;
+	left: 125px; */
   width: 300px;
 	height: 300px;
 }
@@ -601,9 +690,9 @@ h2 {
 }
 
 #semiariddesert{
-	/* position: absolute; */
-  /* top: 850px;
-  right: 125px; */
+	/* position: absolute;
+  top: 337px;
+  left: 500px; */
 	width: 300px;
 	height: 300px;
 }
@@ -626,8 +715,8 @@ h2 {
 }
 
 #coastaldesert{
-	/* position: absolute; */
-  /* top: 850px;
+	/* position: absolute;
+  top: 850px;
   right: 125px; */
 	width: 300px;
 	height: 300px;
@@ -651,8 +740,8 @@ h2 {
 }
 
 #colddesert{
-	/* position: absolute; */
-  /* top: 850px;
+	/* position: absolute;
+  top: 850px;
   right: 125px; */
 	width: 300px;
 	height: 300px;
@@ -767,4 +856,17 @@ size:10pt;
 	color: black;
 	font-family: 'Cabin';
 	font-weight: bolder;
+}
+#medit{
+width:400px
+}
+
+#la{
+width:400px
+}
+
+#vids{
+	position: absolute;
+	top: 1100px;
+	left: 550px;
 }
