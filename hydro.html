@@ -4,9 +4,28 @@
   <link rel="stylesheet" href="format.css" >
   <script src="more.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  <style>
+  * {
+    box-sizing: border-box;
+  }
 
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  </style>
 </head>
 <body>
   <header>
@@ -36,5 +55,45 @@
     src="https://www.youtube.com/embed/q8HmRLCgDAI">
     </iframe>
   </div></center>
+  <div class="row">
+    <div class="column" style="background-color:#fff;">
+      <h2 id= "prot">Pros</h2>
+      <p id= "pros">
+          - Renewable, It can't <br>
+          be used up<br>
+          - Green, Generating <br>
+          electricity with hydro <br>
+          energy is not polluting itself.  <br>
+          - Reliable, very <br>
+          little fluctuations <br>
+          - Flexable, adjusting <br>
+          water flow and output of <br>
+           electricity is easy.<br>
+          - Safe There is no <br>
+          fuel involved <br>
+
+
+
+
+
+      </p>
+    </div>
+    <div class="column" style="background-color:#fff;">
+  <h2 id="cont">Cons</h2>
+
+  <p id="cons">
+
+        -Environmental Cosequences, may affect fish<br>
+        - Expensive <br>
+        - Droughts, can effect amount of <br>
+        energy produced and energy prices <br>
+        - Limited Reservoirs <br>
+
+  </p>
+
+    </div>
+  </div>
+
+
   </body>
   </html>

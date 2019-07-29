@@ -4,9 +4,28 @@
     <link rel="stylesheet" href="format.css" >
     <script src="more.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <style>
+    * {
+      box-sizing: border-box;
+    }
 
+    /* Create two equal columns that floats next to each other */
+    .column {
+      float: left;
+      width: 50%;
+      padding: 10px;
+      height: 300px; /* Should be removed. Only for demonstration */
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    </style>
   </head>
     <body>
       <header>
@@ -27,19 +46,58 @@
         </nav>
       </div>
           </header>
-<center><h2 id="text"> Solar Pannels</h2></center>
+<center><h2 id="text"> Solar Panels</h2></center>
 <center><div>
-  <img alt="Solar Pannels"id=solar src="solar.jpg">
+  <img alt="Solar Panels"id=solar src="solar.jpg">
   <iframe width="420" height="315"id="vid"
   src="https://www.youtube.com/embed/xKxrkht7CpY">
   </iframe>
 </div></center>
 
-<center><p id="textp">
-  Solar Energyfkwfksvksmvksmvksfnkdfnkdsfksnfsmfnsnfksdslfmw<br>
-  nfsfnv.fkwfksvksmvksmvksfnkdfnkdsfksnfsmfnsnfksdslfmwkmwgk<br>
-  nfsfnv.fkwfksvksmvksmvksfnkdfnkdsfksnfsmfnsnfksdslfmwkmwgk<br>
-  nfsfnv.fkwfksvksmvksmvksfnkdfnkdsfksnfsmfnsnfksdslfmwkmwgk<br>
-  nfsfnv.fkwfksvksmvksmvksfnkdfnkdsfksnfsmfnsnfksdslfmwkmwgk<br>
-  nfsfnv.fkwfksvksmvksmvksfnkdfnkdsfksnfsmfnsnfksdslfmwkmwgk<br>
-  </p></center>
+
+<div class="row">
+  <div class="column" style="background-color:#fff;">
+    <h2 id= "prot">Pros</h2>
+    <p id= "pros">
+        - Sustainable <br>
+        - Low Envirionmental Impact <br>
+        - Lasts 20 - 40 years <br>
+        - Reduces Electrical Cost <br>
+        - Reduces Dependence on <br>
+        Fossil Fuels <br>
+        - No CO2  emissions <br>
+        - Low land use (if on roof or <br>
+        built into walls or windows) <br>
+        - Quick installation <br>
+        - Easily expanded or moved <br>
+        - Fairly high net energy yield <br>
+
+
+
+
+
+    </p>
+  </div>
+  <div class="column" style="background-color:#fff;">
+<h2 id="cont">Cons</h2>
+
+<p id="cons">
+
+      -Need access to sun <br>
+      - Low efficiency <br>
+      - Need electricity storage <br>
+      system or backup <br>
+      - Environmental costs not included <br>
+       in market price <br>
+      - High costs (but should be <br>
+      competitive in 5–15 years) <br>
+      - High land use (solar-cell power plants) <br>
+      could disrupt <br>
+      desert areas <br>
+      - DC current must be converted to AC <br>
+</p>
+
+  </div>
+</div>
+
+</body>

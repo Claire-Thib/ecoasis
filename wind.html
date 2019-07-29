@@ -4,8 +4,28 @@
     <link rel="stylesheet" href="format.css" >
     <script src="more.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    /* Create two equal columns that floats next to each other */
+    .column {
+      float: left;
+      width: 50%;
+      padding: 10px;
+      height: 300px; /* Should be removed. Only for demonstration */
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    </style>
 
   </head>
     <body>
@@ -38,4 +58,54 @@ src="https://www.youtube.com/embed/qSWm_nprfqE">
 </iframe>
 <img alt="windturbine on water" id="watert" src="watert.jpg">
 
+<center><div>
+<p>
 </div></center>
+
+<div class="row">
+  <div class="column" style="background-color:#fff;">
+    <h2 id= "prot">Pros</h2>
+    <p id= "pros">
+      -Moderate to high net <br>
+       energy yield <br>
+      -High efficiency <br>
+      -Moderate capital cost <br>
+      -Low electricity cost <br>
+      (and falling) <br>
+      -Very low environmental impact <br>
+      -No CO2 emissions Quick c <br>
+      onstruction Easily expanded <br>
+      -Can be located at sea <br>
+      -Land below turbines can be <br>
+       used to grow crops or graze livestock <br>
+
+
+
+
+
+    </p>
+  </div>
+  <div class="column" style="background-color:#fff;">
+<h2 id="cont">Cons</h2>
+
+<p id="cons">
+
+  - Steady winds needed <br>
+  - Backup systems needed <br>
+  when winds are low <br>
+  - Plastic components <br>
+   produced from oil <br>
+  - Environmental costs <br>
+   not included in market price <br>
+  - High land use for wind <br>
+  - farm Visual pollution <br>
+  - Noise when located near <br>
+   populated areas <br>
+  - Can kill birds and interfere  <br>
+   with flights of migratory birds <br>
+</p>
+
+  </div>
+</div>
+
+</body>
