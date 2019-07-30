@@ -4,7 +4,7 @@ body {
 	background: #FFF;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 800;
-  padding-bottom: 600px;
+  padding-bottom: 200px;
 
 }
 
@@ -1151,11 +1151,11 @@ width:400px;
   padding: 20px;
   color: white;
 }
-<<<<<<< HEAD
+
 #video{
 	position: absolute;
-	top: 1310px;
-	left:500px;
+	top: 1360px;
+	left:475px;
 	border: 5px solid #000;
 
 }
