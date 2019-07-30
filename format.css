@@ -565,7 +565,7 @@ h2 {
 }
 #tidalvid{
 	position: relative;
-  top: 100px;
+  top: 30px;
   left: 155px;
   width: 420px;
   height:315px;
@@ -574,16 +574,17 @@ h2 {
 
 #textt{
 	position: relative;
-	top: -240px;
+	top: -290px;
 	left: 700px;
-	width: 420px;
+	width: 500px;
 	height:315px;
+	text-align: center;
 
 }
 
 #tidalgif{
 	position:absolute;
-	top: 950px;
+	top: 900px;
 	left:150;
 	width:420px;
   height: 315px;
@@ -592,7 +593,7 @@ h2 {
 
 #wavegif{
 	position:absolute;
-	top: 950px;
+	top: 900px;
 	left: 250px;
 	width:420px;
   height: 315px;
@@ -601,7 +602,7 @@ h2 {
 
 #title{
 	position:absolute;
-	top: 1300px;
+	top: 1250px;
 	left: 385px;
 	font-family: 'Cabin';
 
@@ -746,7 +747,7 @@ h2 {
 
 #title2{
 	position:absolute;
-	top: 1300px;
+	top: 1250px;
 	left: 890px;
 	font-family: 'Cabin';
 }
@@ -960,8 +961,14 @@ width:400px;
 
 #vids{
 	position: absolute;
-	top: 1100px;
-	left: 550px;
+	top: 1400px;
+	left: 500px;
+	border: 5px solid #000;
+}
+
+#climates{
+	position: relative;
+	bottom: 375px;
 }
 
 <<<<<<< HEAD
@@ -1121,7 +1128,30 @@ width:400px;
 	width: 500px;
 	font-family:'Cabin';
 	font-size:22px;
+
 }
+
+.column1 {
+ 	box-sizing: border-box;
+ 	margin-left: 150px;
+  margin-right: 150px;
+  font-family: "Oswald";
+	text-decoration: underline;
+  float: right;
+  width: 400px;
+	height:100px;
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+}
+
+.containerTab {
+  padding: 20px;
+  color: white;
+}
+<<<<<<< HEAD
 #video{
 	position: absolute;
 	top: 1310px;
@@ -1138,3 +1168,203 @@ width:400px;
 #bord{
 	border: 5px solid #000;
 }
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Closable button inside the container tab */
+.closebtn {
+  float: right;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+#fonting{
+	font-family: 'Cabin';
+	font-size: 30px;
+}
+
+#geot{
+	width:900px;
+	font-size: 20px;
+}
+
+#nonrenewb{
+	font-size: 30px;
+	font-family: "Cabin";
+}
+
+#ecosia{
+	position: relative;
+  /* top: 100px; */
+	margin-top: 30px;
+  left: 100px;
+  width: 590px;
+  height:340px;
+  border: 5px solid #000;
+}
+
+#ecosiatext{
+	position: absolute;
+	top: 1740px;
+	left: 850px;
+	font-size: 20px;
+	width: 400px;
+	height:315px;
+	text-align: center;
+}
+.timelines{
+	    white-space:nowrap;
+	    overflow-x: scroll;
+	    padding:30px 0 10px 0;
+	    position:relative;
+	}
+
+	.entrys {
+	    display:inline-block;
+	    vertical-align:top;
+	    background:#264869;
+	    color:#fff;
+	    padding:10px;
+	    font-size:12px;
+	    text-align:center;
+	    position:relative;
+	    border-top:4px solid #06182E;
+	    border-radius:20px;
+	    min-width:200px;
+	    max-width:500px;
+			font-family: 'Cabin';
+	}
+
+	.entrys img {
+	    display:block;
+	    max-width:100%;
+	    height:auto;
+	    margin-bottom:10px;
+	}
+
+	.entrys:after {
+	    content:'';
+	    display:block;
+	    background:#eee;
+	    width:7px;
+	    height:7px;
+	    border-radius:6px;
+	    border:3px solid #06182E;
+	    position:absolute;
+	    left:50%;
+	    top:-30px;
+	    margin-left:-6px;
+	}
+
+	.entrys:before {
+	    content:'';
+	    display:block;
+	    background:#06182E;
+	    width:5px;
+	    height:20px;
+	    position:absolute;
+	    left:50%;
+	    top:-20px;
+	    margin-left:-2px;
+	}
+
+	.entrys h1 {
+		color:#fff;
+		font-size:25px;
+		font-family:'Oswald';
+		font-weight:bold;
+		margin-bottom:10px;
+		text-decoration: underline;
+	}
+
+
+	.bars {
+	    height:4px;
+	    background:#eee;
+	    width:100%;
+	    position:relative;
+	    top:13px;
+	    left:0;
+	}
+
+	.timelinez{
+		    white-space:nowrap;
+		    overflow-x: scroll;
+		    padding:30px 0 10px 0;
+		    position:relative;
+		}
+
+		.entryz {
+		    display:inline-block;
+		    vertical-align:top;
+		    background:#76A976;
+		    color:#fff;
+		    padding:10px;
+		    font-size:12px;
+		    text-align:center;
+		    position:relative;
+		    border-top:4px solid #06182E;
+		    border-radius:10px;
+		    min-width:200px;
+		    max-width:500px;
+				font-family: 'Cabin';
+		}
+
+		.entryz img {
+		    display:block;
+		    max-width:100%;
+		    height:auto;
+		    margin-bottom:10px;
+		}
+
+		.entryz:after {
+		    content:'';
+		    display:block;
+		    background:#eee;
+		    width:7px;
+		    height:7px;
+		    border-radius:6px;
+		    border:3px solid #06182E;
+		    position:absolute;
+		    left:50%;
+		    top:-30px;
+		    margin-left:-6px;
+		}
+
+		.entryz:before {
+		    content:'';
+		    display:block;
+		    background:#06182E;
+		    width:5px;
+		    height:20px;
+		    position:absolute;
+		    left:50%;
+		    top:-20px;
+		    margin-left:-2px;
+		}
+
+		.entryz h1 {
+			color:#fff;
+			font-size:25px;
+			font-family:'Oswald';
+			font-weight:bold;
+			margin-bottom:10px;
+			text-decoration: underline;
+		}
+
+
+		.barz {
+		    height:4px;
+		    background:#eee;
+		    width:100%;
+		    position:relative;
+		    top:13px;
+		    left:0;
+		}

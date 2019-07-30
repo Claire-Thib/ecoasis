@@ -6,26 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href='https://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-  <style>
-  * {
-    box-sizing: border-box;
-  }
-
-  /* Create two equal columns that floats next to each other */
-  .column {
-    float: left;
-    width: 50%;
-    padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
-  }
-
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  </style>
 </head>
 <body>
   <header>
@@ -55,44 +35,71 @@
     src="https://www.youtube.com/embed/q8HmRLCgDAI">
     </iframe>
   </div></center>
+
+  <center><div>
+    <br>
+    <p id="geot">
+    Hydropower power is collected from water flowing from a higher
+    elevation to a lower elevation in rivers and streams that is
+    controlled by dams and reservoirs. Hydropower is the world's
+    leading renewable energy resource and the most popular way to
+    harness hydropower is building dams across a large river to
+    create a reservoir. According to the United Nations, only 13%
+    of the world's exploitable potential for hydropower has been
+    developped.
+    </p>
+    <br>
+  </div></center>
+
+  <!-- Three columns -->
   <div class="row">
-    <div class="column" style="background-color:#fff;">
-      <h2 id= "prot">Pros</h2>
-      <p id= "pros">
-          - Renewable, It can't <br>
-          be used up<br>
-          - Green, Generating <br>
-          electricity with hydro <br>
-          energy is not polluting itself.  <br>
-          - Reliable, very <br>
-          little fluctuations <br>
-          - Flexable, adjusting <br>
-          water flow and output of <br>
-           electricity is easy.<br>
-          - Safe There is no <br>
-          fuel involved <br>
 
-
-
-
-
-      </p>
+    <div class="column1" onclick="openTab('b2');" style="background:#3D5B87;">
+     Cons
     </div>
-    <div class="column" style="background-color:#fff;">
-  <h2 id="cont">Cons</h2>
 
-  <p id="cons">
-
-        -Environmental Cosequences, may affect fish<br>
-        - Expensive <br>
-        - Droughts, can effect amount of <br>
-        energy produced and energy prices <br>
-        - Limited Reservoirs <br>
-
-  </p>
-
+    <div class="column1" onclick="openTab('b1');" style="background:#5B8DD8;">
+      Pros
     </div>
+
   </div>
+
+
+  <!-- Full-width columns: (hidden by default) -->
+  <center>
+
+  <div id="b2" class="containerTab" style="display:none; background:#3D5B87">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <h2 style="color:white;">Cons</h2>
+    <center>
+      <p id="fonting">
+        • Environmental Cosequences, may affect fish in the area<br>
+        • Expensive <br>
+        • Droughts, can effect amount of <br>
+        energy produced and energy prices <br>
+        • Limited Reservoirs <br>
+    </center>
+  </div>
+  <div id="b1" class="containerTab" style="display:none;background:#5B8DD8">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <h2 style="color:white;">Pros</h2>
+    <center><p id="fonting">
+      • Renewable meaning that it can't
+      be used up<br>
+      • Green, meaning that generating <br>
+      electricity with hydro
+      energy is not polluting itself.  <br>
+      • Reliable because there are very
+      little fluctuations <br>
+      • Flexable because it is easy to adjust
+      water flow and output of
+       electricity.<br>
+      • Safe because there is no
+      fuel involved <br>
+
+    </p></center>
+  </div>
+  </center>
 
 
   </body>

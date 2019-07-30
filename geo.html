@@ -6,26 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-    <style>
-    * {
-      box-sizing: border-box;
-    }
 
-    /* Create two equal columns that floats next to each other */
-    .column {
-      float: left;
-      width: 50%;
-      padding: 10px;
-      height: 300px; /* Should be removed. Only for demonstration */
-    }
-
-    /* Clear floats after the columns */
-    .row:after {
-      content: "";
-      display: table;
-      clear: both;
-    }
-    </style>
   </head>
     <body>
       <header>
@@ -56,7 +37,7 @@
   src="https://www.youtube.com/embed/ajeeEr5jG9M">
   </iframe>
 </div></center>
-
+<!--
 <div class="row">
   <div class="column" style="background-color:#fff;">
     <h2 id= "prot">Pros</h2>
@@ -102,8 +83,79 @@
 </p>
 
   </div>
+</div> -->
+
+<div>
+<br>
+  <center><p id="geot">
+    Geothermal energy is energy that is stored underground, within
+    the soil, rocks, and fluid. We can tap into energy stored underground
+    in order to heat and cool houses and buildings by using a geothermal
+    heat pump which, in the winter extracts heat from the Earth and
+    distributes it around the house, and in the summer the pump removes heat
+    from the house and stores it underground. Scientists estimate that
+    "using just 1% of the heat stored in the uppermost 5 kilometers (8 miles)
+    of the earth’s crust would provide 250 times more energy than that stored
+    in all the earth’s oil and natural gas reserves"
+  </p></center>
+<br>
 </div>
 
+<div class="row">
+
+  <div class="column1" onclick="openTab('b2');" style="background:#735D38;">
+   Cons
+  </div>
+
+  <div class="column1" onclick="openTab('b1');" style="background:#B39156;">
+    Pros
+  </div>
+
+</div>
+
+<center>
+
+<div id="b2" class="containerTab" style="display:none; background:#735D38">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2 style="color:white;">Cons</h2>
+  <center>
+    <p id="fonting">
+      • Environment Issues since an abundance of
+      greenhouse gases are below the surface <br>
+      and can be accidently released in the process
+      of trying to obtain geothermal energy<br>
+      • Expensive <br>
+      • Location specific because good geothermal
+      reservoirs hard to come by <br>
+      • Sustainability Issues since geothermal
+      power is sustainable if reserviors are <br>
+      properly managed
+  </center>
+</div>
+<div id="b1" class="containerTab" style="display:none;background:#B39156">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2 style="color:white;">Pros</h2>
+  <center><p id="fonting">
+    • Environmentally Friendly because
+    there are a few polluting <br>
+     aspects of harnessing
+     geothermal energy <br>
+    • Renewable since geothermal
+    reservoirs come from natural <br>
+    resources and are
+     naturally replenished. <br>
+    • Massive Potential because worldwide
+     energy consumption – about 15 <br>
+      terawatts (TW) – is not
+      anywhere near the amount <br>
+      of energy stored in earth.<br>
+    • Stable  <br>
+    • Great for Heating and Cooling <br>
+
+
+  </p></center>
+</div>
+</center>
 
 </body>
 </html>

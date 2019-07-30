@@ -6,26 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-    <style>
-    * {
-      box-sizing: border-box;
-    }
-
-    /* Create two equal columns that floats next to each other */
-    .column {
-      float: left;
-      width: 50%;
-      padding: 10px;
-      height: 300px; /* Should be removed. Only for demonstration */
-    }
-
-    /* Clear floats after the columns */
-    .row:after {
-      content: "";
-      display: table;
-      clear: both;
-    }
-    </style>
 
   </head>
     <body>
@@ -62,50 +42,80 @@ src="https://www.youtube.com/embed/qSWm_nprfqE">
 <p>
 </div></center>
 
-<div class="row">
-  <div class="column" style="background-color:#fff;">
-    <h2 id= "prot">Pros</h2>
-    <p id= "pros">
-      -Moderate to high net <br>
-       energy yield <br>
-      -High efficiency <br>
-      -Moderate capital cost <br>
-      -Low electricity cost <br>
-      (and falling) <br>
-      -Very low environmental impact <br>
-      -No CO2 emissions Quick c <br>
-      onstruction Easily expanded <br>
-      -Can be located at sea <br>
-      -Land below turbines can be <br>
-       used to grow crops or graze livestock <br>
-
-
-
-
 
     </p>
   </div>
-  <div class="column" style="background-color:#fff;">
-<h2 id="cont">Cons</h2>
 
-<p id="cons">
+  <div>
+    <br>
+    <p id="geot">
+    Wind energy is obtained by capturing wind with wind turbines and converting
+    it into electrical energy. Wind power is actually the second fastest growing
+    source of energy. Europe is currently leading the world in the <em>age of
+    wind energy</em>, with places like Germany and Spain producing three-fourths
+    of the global wind-generated power. Wind turbines are larger than ever and
+    have even bigger blades, meaning that the current wind turbines can tap into
+    the stronger, more reliable, and less turbulent winds found at higher altitudes
+    </p>
+    <br>
+  </div>
 
-  - Steady winds needed <br>
-  - Backup systems needed <br>
-  when winds are low <br>
-  - Plastic components <br>
-   produced from oil <br>
-  - Environmental costs <br>
-   not included in market price <br>
-  - High land use for wind <br>
-  - farm Visual pollution <br>
-  - Noise when located near <br>
-   populated areas <br>
-  - Can kill birds and interfere  <br>
-   with flights of migratory birds <br>
-</p>
+  <!-- Three columns -->
+  <div class="row">
+
+    <div class="column1" onclick="openTab('b2');" style="background:#14567C;">
+     Cons
+    </div>
+
+    <div class="column1" onclick="openTab('b1');" style="background:#1A82BF;">
+      Pros
+    </div>
 
   </div>
+
+
+  <!-- Full-width columns: (hidden by default) -->
+  <center>
+
+  <div id="b2" class="containerTab" style="display:none; background:#14567C">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <h2 style="color:white;">Cons</h2>
+    <center>
+      <p id="fonting">
+          • Steady winds are needed to sustain the turbines <br>
+          • Backup systems needed
+          when winds are low <br>
+          • Plastic components
+           produced from oil (supporting the petroleum industry) <br>
+          • Environmental costs
+           not included in market price <br>
+          • High land use needed for wind turbines <br>
+          • Pollutes the visual aesthetics for the surrounding people <br>
+          • Noise for surrounding people when located in a populated area <br>
+          • Can kill birds and interfere
+           with flight paths of migratory birds <br></p>
+    </center>
+  </div>
+  <div id="b1" class="containerTab" style="display:none;background:#1A82BF">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <h2 style="color:white;">Pros</h2>
+    <center><p id="fonting">
+      • Has a moderate to high net
+       energy yield <br>
+      • Has high efficiency <br>
+      • Moderate capital cost <br>
+      • Low electricity cost
+      (and the cost is constantly falling) <br>
+      • Very low environmental impact <br>
+      • No carbon dioxide emissions <br>
+      • Extremely quick construction <br>
+      • Can very easily be xpanded
+      • Can be located at sea (as shown in the picture above) <br>
+      • Land below turbines can be
+       used to grow crops or graze livestock <br>
+    </p></center>
+  </div>
+  </center>
 </div>
 
 </body>

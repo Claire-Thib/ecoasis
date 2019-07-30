@@ -6,26 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-    <style>
-    * {
-      box-sizing: border-box;
-    }
 
-    /* Create two equal columns that floats next to each other */
-    .column {
-      float: left;
-      width: 50%;
-      padding: 10px;
-      height: 300px; /* Should be removed. Only for demonstration */
-    }
-
-    /* Clear floats after the columns */
-    .row:after {
-      content: "";
-      display: table;
-      clear: both;
-    }
-    </style>
   </head>
     <body>
       <header>
@@ -57,48 +38,70 @@
   </iframe>
 </div></center>
 
+<center><div>
+  <br>
+  <p id="geot">
+  Biomass is products such as plant materials and agricultural Waste
+  that is burned directly or converted to make biofuel, which is
+  an alternative to fossil fuels (like petroleum). Solid biomass is
+  burned mostly for the purpose for heating and cooking within homes,
+  but is also used in industrial processes and to produce electricty.
+
+  </p>
+  <br>
+</div></center>
+
 <div class="row">
-  <div class="column" style="background-color:#fff;">
-    <h2 id= "prot">Pros</h2>
-    <p id= "pros">
-        - Renewable, We will always <br>
-         have the sources <br>
-         of biomass such as crops, <br>
-          manure and garbage. <br>
-        - Carbon Neutral, Biomass <br>
-        fuels are clean. <br>
-        - Cost-Effective, Energy <br>
-         harnessed from <br>
-        biomass is inexpensive <br>
-        compared to coal and oil.  <br>
-        - Abundant, Biomass is <br>
-        available in large <br>
-        quantities all over the world. <br>
 
-
-
-
-
-    </p>
+  <div class="column1" onclick="openTab('b2');" style="background:#ABABAB;">
+   Cons
   </div>
-  <div class="column" style="background-color:#fff;">
-<h2 id="cont">Cons</h2>
 
-<p id="cons">
-      - Expensive, Extraction of
-       biomasses can <br>
-      be expensive.  <br>
-      - Requires Space, We need <br>
-       big areas for all the <br>
-       different processes <br>
-       that are required in harnessing <br>
-       energy from biomass. <br>
-
-</p>
-
+  <div class="column1" onclick="openTab('b1');" style="background:#C1D55A;">
+    Pros
   </div>
+
 </div>
 
+<center>
+
+<div id="b2" class="containerTab" style="display:none; background:#ABABAB">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2 style="color:white;">Cons</h2>
+  <center>
+    <p id="fonting">
+      • Expensive because extraction of
+       biomasses can
+      be expensive.  <br>
+      • Requires Space because we need
+       big areas for all the <br>
+       different processes
+       that are required in harnessing <br>
+       energy from biomass.
+  </center>
+</div>
+<div id="b1" class="containerTab" style="display:none;background:#C1D55A">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2 style="color:white;">Pros</h2>
+  <center><p id="fonting">
+    • Renewable becaues we will always
+     have the resources of<br>
+     of biomass available to us such as crops,
+      manure and garbage. <br>
+    • Carbon Neutral because biomass
+    fuels are clean. <br>
+    • Cost-Effective since energy
+     harnessed from <br>
+    biomass is inexpensive
+    compared to coal and oil.  <br>
+    • Abundant because biomass is
+    available in large
+    quantities all over the world. <br>
+
+
+  </p></center>
+</div>
+</center>
 
 </body>
 </html>
