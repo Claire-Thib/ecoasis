@@ -6,26 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-    <style>
-    * {
-      box-sizing: border-box;
-    }
 
-    /* Create two equal columns that floats next to each other */
-    .column {
-      float: left;
-      width: 50%;
-      padding: 10px;
-      height: 300px; /* Should be removed. Only for demonstration */
-    }
-
-    /* Clear floats after the columns */
-    .row:after {
-      content: "";
-      display: table;
-      clear: both;
-    }
-    </style>
   </head>
     <body>
       <header>
@@ -54,50 +35,78 @@
   </iframe>
 </div></center>
 
-
-<div class="row">
-  <div class="column" style="background-color:#fff;">
-    <h2 id= "prot">Pros</h2>
-    <p id= "pros">
-        - Sustainable <br>
-        - Low Envirionmental Impact <br>
-        - Lasts 20 - 40 years <br>
-        - Reduces Electrical Cost <br>
-        - Reduces Dependence on <br>
-        Fossil Fuels <br>
-        - No CO2  emissions <br>
-        - Low land use (if on roof or <br>
-        built into walls or windows) <br>
-        - Quick installation <br>
-        - Easily expanded or moved <br>
-        - Fairly high net energy yield <br>
-
-
-
-
-
-    </p>
-  </div>
-  <div class="column" style="background-color:#fff;">
-<h2 id="cont">Cons</h2>
-
-<p id="cons">
-
-      -Need access to sun <br>
-      - Low efficiency <br>
-      - Need electricity storage <br>
-      system or backup <br>
-      - Environmental costs not included <br>
-       in market price <br>
-      - High costs (but should be <br>
-      competitive in 5–15 years) <br>
-      - High land use (solar-cell power plants) <br>
-      could disrupt <br>
-      desert areas <br>
-      - DC current must be converted to AC <br>
-</p>
-
-  </div>
+<div>
+<br>
+  <center><p id="geot">
+    Solar energy can be obtained through passive and active solar
+    systems. (this is mostly for homes and urban developments thought)
+    Passive solar heating systems stores heat directly from the sun
+    without the use of heat pumps or fans, redistributing heat within
+    a building with carefully placed walls and applicances. Active Solar
+    heating systems absorbs solar energy by pushing it through a
+    heat-absorbing liquid mounted to the roof to heat up the water
+    and then uses the heat up water for electricity. There are also
+    solar cell power plants and photovolataic cells which all are part
+    of the solar energy arena. Solar-cell production is fastest growing
+    source of energy.
+  </p></center>
+<br>
 </div>
+
+
+
+<!-- Three columns -->
+<div class="row">
+
+  <div class="column1" onclick="openTab('b2');" style="background:#7EB788;">
+   Cons
+  </div>
+
+  <div class="column1" onclick="openTab('b1');" style="background:#6B9AB5;">
+    Pros
+  </div>
+
+</div>
+
+<!-- Full-width columns: (hidden by default) -->
+<center>
+
+<div id="b2" class="containerTab" style="display:none; background:#7EB788">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2 style="color:white;">Cons</h2>
+  <center>
+    <p id="fonting">
+    • Sustainable <br>
+    • Low Envirionmental Impact <br>
+    • Lasts 20 - 40 years after construction <br>
+    • Reduces Electrical Cost <br>
+    • Reduces Dependence on Fossil Fuels <br>
+    • No carbon dioxide emissions <br>
+    • Little land is needed for building (if on roof or <br>
+    built into walls or windows) <br>
+    • Quick installation <br>
+    • Easily expanded or moved <br>
+    • Fairly high net energy yield <br></p>
+  </center>
+</div>
+<div id="b1" class="containerTab" style="display:none;background:#6B9AB5">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <h2 style="color:white;">Pros</h2>
+  <center><p id="fonting">
+    • Access is needed to the sun <br>
+    • Low efficiency <br>
+    • Needs an electricity storage
+    system or backup <br>
+    • Environmental costs not included <br>
+     in market price (like how helpful obtaining solar panels are for the Earth)<br>
+    • High costs (but should be less
+    competitive in 5–15 years) <br>
+    • High land use (solar-cell power plants) <br>
+    could disrupt
+    desert areas<br>
+    • DC currents must be converted to AC <br>
+  </p></center>
+</div>
+</center>
 
 </body>
