@@ -1368,3 +1368,11 @@ width:400px;
 		    top:13px;
 		    left:0;
 		}
+
+		#vidz{
+			position: absolute;
+			top: 1400px;
+			left: 500px;
+			border: 5px solid #000;
+
+		}

@@ -27,9 +27,11 @@ function but1(){
   document.getElementById('earthfire').style.display='none';
   document.getElementById('flooding').style.display='none';
   document.getElementById('black5').style.display='none';
-  document.getElementById('rise').style.display='none';
   document.body.style.backgroundColor= "#FFF" ;
   document.getElementById('title4').style.color='black';
+  document.getElementById('climates').style.color='black';
+  document.getElementById('rise').style.display='none';
+
 
 }
 function but2(){
@@ -64,6 +66,8 @@ function but2(){
   document.getElementById('rise').style.display='none';
   document.body.style.backgroundColor= "#DFDFDF" ;
   document.getElementById('title4').style.color='black';
+  document.getElementById('climates').style.color='black';
+
 
 }
 
@@ -99,6 +103,8 @@ function but3(){
   document.getElementById('rise').style.display='none';
   document.body.style.backgroundColor= "#ACACAC" ;
   document.getElementById('title4').style.color='black';
+  document.getElementById('climates').style.color='black';
+
 
 }
 
@@ -134,6 +140,8 @@ function but4(){
   document.getElementById('rise').style.display='none';
   document.body.style.backgroundColor= "#7D7D7D" ;
   document.getElementById('title4').style.color='black';
+  document.getElementById('climates').style.color='black';
+
 
 }
 
@@ -169,6 +177,8 @@ function but5(){
   document.getElementById('rise').style.display='none';
   document.body.style.backgroundColor= "#4E4E4E" ;
   document.getElementById('title4').style.color='white';
+  document.getElementById('climates').style.color='white';
+
 }
 
 function but6(){
@@ -203,6 +213,8 @@ function but6(){
   document.getElementById('rise').style.display='none';
   document.body.style.backgroundColor= "#292929" ;
   document.getElementById('title4').style.color='white';
+  document.getElementById('climates').style.color='white';
+
 
 }
 
